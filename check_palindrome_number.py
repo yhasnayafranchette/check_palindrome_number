@@ -18,3 +18,8 @@ def is_palindrome(number):
         return False
     
 #Check if the number is a palindrome and print
+number_one = 121
+if is_palindrome(number_one):
+    print(f"original number {number_one}\nYes. given number is palindrome number\n")
+else:
+    print(f"original number {number_one}\nNo. given number is not palindrome number\n")
