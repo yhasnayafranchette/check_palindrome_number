@@ -23,3 +23,9 @@ if is_palindrome(number_one):
     print(f"original number {number_one}\nYes. given number is palindrome number\n")
 else:
     print(f"original number {number_one}\nNo. given number is not palindrome number\n")
+
+number_two = 125
+if is_palindrome(number_two):
+    print(f"original number {number_two}\nYes. given number is palindrome number\n")
+else:
+    print(f"original number {number_two}\nNo. given number is not palindrome number\n")
